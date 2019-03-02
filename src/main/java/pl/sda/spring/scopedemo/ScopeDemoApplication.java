@@ -17,6 +17,9 @@ public class ScopeDemoApplication {
 
         MainClass mainClass3 = context.getBean(MainClass.class);
         System.out.println(mainClass3.hello());
+
+        Dependency dependency = context.getBean(Dependency.class);
+        System.out.println(dependency.hello());
     }
 
 }
