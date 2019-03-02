@@ -20,6 +20,9 @@ public class ScopeDemoApplication {
 
         Dependency dependency = context.getBean(Dependency.class);
         System.out.println(dependency.hello());
+
+        System.out.println(mainClass.hello());
+
     }
 
 }
